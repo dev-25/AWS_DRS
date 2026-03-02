@@ -81,6 +81,7 @@ created automatically after agent installation on source server.
 
 This allows cross-account replication.
 
+![Commands SS](image1.png)
 ------------------------------------------------------------------------
 
 ## Step 4 -- Login to Source Server (Mumbai)
@@ -126,6 +127,7 @@ sudo python3 aws-replication-installer-init.py
 -   Starts block-level replication.
 -   Process may take 20--30 minutes depending on disk size.
 
+![Commands SS](image2.png)
 ------------------------------------------------------------------------
 
 ## Step 6 -- Verify Replication in DR Region
@@ -180,6 +182,9 @@ To test DR:
 DRS will: - Create EBS volumes from replicated data - Launch EC2
 instance in Hyderabad - Attach volumes - Boot instance
 
+![Commands SS](image3.png)
+
+![Commands SS](image4.png)
 ------------------------------------------------------------------------
 
 # Failover Procedure (Actual Disaster)
